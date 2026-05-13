@@ -1,0 +1,33 @@
+{
+    "model_name": "hybrid",
+    "batch_size": 8,
+    "epochs_requested": 50,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "final_test_loss": 3.422681824811273,
+    "final_test_mae": 4.384013005928186,
+    "age_group_mae": {
+        "0-9": 1.390916739474857,
+        "10-19": 2.4049435211380175,
+        "20-29": 4.078241594442835,
+        "30-39": 4.487551384581301,
+        "40-49": 5.005756862640381,
+        "50-59": 4.746436946344056,
+        "60-69": 7.374188674123664,
+        "70-79": 7.584110683865017,
+        "80-89": 11.039978476131663,
+        "90-100": 15.32838217417399
+    },
+    "gender_mae": {
+        "male": 3.927655542058138,
+        "female": 5.062856593036335
+    },
+    "best_model_path": "age_estimation_experiments_30032026/hybrid/best_hybrid.pth",
+    "final_model_path": "age_estimation_experiments_30032026/hybrid/final_hybrid.pth",
+    "split_path": "age_estimation_experiments_30032026/fixed_dataset_split.csv",
+    "scatter_plot": "age_estimation_experiments_30032026/hybrid/scatter_true_vs_pred_hybrid.png",
+    "hist_abs_error_plot": "age_estimation_experiments_30032026/hybrid/hist_abs_error_hybrid.png",
+    "kde_abs_error_plot": "age_estimation_experiments_30032026/hybrid/kde_abs_error_hybrid.png",
+    "confusion_matrix_plot": "age_estimation_experiments_30032026/hybrid/confusion_matrix_age_bins_hybrid.png"
+}
